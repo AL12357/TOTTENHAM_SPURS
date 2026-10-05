@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ============================================
    1. PAGE BACKGROUND AND FONT STYLING
    ============================================
@@ -118,3 +119,26 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
 }
+=======
+/* Custom Spurs Color Theme */
+.spurs-bg {
+  background-color: #132257 !important; /* Tottenham Navy Blue */
+}
+
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  margin-right: 10px;
+  background: white;
+  border-radius: 50%;
+  padding: 4px;
+}
+>>>>>>> f20afcb8d231f3b30c985f5d5ad497c0d5762704
