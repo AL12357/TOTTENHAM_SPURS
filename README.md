@@ -42,12 +42,7 @@ TOTTENHAM_SPURS-main/
 2. Open the project folder.
 3. Double-click `index.html` to open it in your browser, or right-click it in VS Code and choose **Open with Live Server**.
 
-## Author
 
-**Oola Kenneth**
-Diploma in Information Technology, Uganda Christian University (UCU), Mukono Campus
-
-GitHub: [oolakenneth6](https://github.com/oolakenneth6)
 
 ## Disclaimer
 
