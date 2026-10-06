@@ -43,7 +43,6 @@ TOTTENHAM_SPURS-main/
 3. Double-click `index.html` to open it in your browser, or right-click it in VS Code and choose **Open with Live Server**.
 
 
-
 ## Disclaimer
 
 This is a student project made for learning purposes. It is not affiliated with or endorsed by Tottenham Hotspur Football Club. The club name and logo belong to their respective owners.
