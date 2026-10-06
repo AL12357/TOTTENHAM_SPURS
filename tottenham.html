@@ -8,15 +8,33 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<nav> 
-     <a href="index.html">Home</a>
-      <a href="squad.html">Squad</a>
-      <a href="tottenham.html">History</a>
-      <a href="stadium.html">Stadium</a>
-      <a href="fixtures.html">Fixtures</a> 
-     
+<nav class="navbar navbar-expand-lg navbar-dark home-navbar">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+      <img class="logo me-2" src="logo.png" alt="Tottenham Hotspur logo">
+      <span>Tottenham Hotspur FC</span>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNavigation"
+      aria-controls="mainNavigation"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavigation">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" aria-current="page" href="tottenham.html">History</a>
+        <a class="nav-link" href="squad.html">Squad</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </div>
+    </div>
+  </div>
 </nav>
-<header class="spurs-header text-center py-5 mb-4">
+<header class="home-hero text-white text-center py-5 mb-4">
   <div class="container">
     <h1 class="display-5 fw-bold mb-2">Tottenham Hotspur</h1>
     <p class="lead mb-0">Backstory and trophy list, from 1882 to the present</p>
@@ -127,10 +145,19 @@
 
       <p class="small text-secondary mb-0">One count puts the number of major trophies at 27 as of 2025.</p>
     </div>
-    <img src="c:\Users\user\Desktop\tottenham's trophies.jpeg="width:100%;max-width:600px;">
   </section>
 
-
+  <section id="sources" class="card shadow-sm">
+    <div class="card-body p-4">
+      <h2 class="spurs-title h3 mb-3">Sources</h2>
+      <ul class="mb-0">
+        <li><a href="https://www.spurs-web.com/club-info/tottenham-hotspur-club-honours/">Spurs-web: Tottenham Club Honours</a></li>
+        <li><a href="https://www.11v11.com/teams/tottenham-hotspur/tab/honours/">11v11: Tottenham honours</a></li>
+        <li><a href="https://www.sportsdunia.com/football-teams/tottenham-hotspur-trophies">Sportsdunia: Tottenham Hotspur Trophies</a></li>
+        <li><a href="https://www.besoccer.com/team/honours/tottenham-hotspur-fc">BeSoccer: Tottenham honours</a></li>
+      </ul>
+    </div>
+  </section>
 
 </main>
 

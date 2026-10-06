@@ -7,35 +7,6 @@
 
 
 /* ------------------------------------------------------------
-   NAVIGATION
-   ------------------------------------------------------------ */
-
-.spurs-navbar {
-    background-color: #132257;
-}
-
-.spurs-navbar .navbar-brand,
-.spurs-navbar .nav-link {
-    color: white;
-}
-
-.spurs-navbar .nav-link:hover,
-.spurs-navbar .nav-link.active {
-    color: #c9a227;
-}
-
-.spurs-navbar .navbar-brand {
-    font-weight: bold;
-}
-
-.spurs-navbar .logo {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-}
-
-
-/* ------------------------------------------------------------
    PAGE TITLE
    ------------------------------------------------------------ */
 

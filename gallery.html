@@ -25,80 +25,66 @@
 <body>
 
 
-<!-- =========================================================
-     NAVIGATION
-     ========================================================= -->
-
-<nav class="navbar navbar-expand-lg spurs-navbar">
-
+<!-- =========================
+     MAIN NAVIGATION
+========================= -->
+<nav class="navbar navbar-expand-lg navbar-dark home-navbar">
     <div class="container">
 
-        <a class="navbar-brand d-flex align-items-center"
-           href="index.html">
-
-            <img
-                src="logo.png"
-                class="logo me-2"
-                alt="Tottenham Hotspur logo">
-
-            <span>Tottenham Hotspur FC</span>
-
+        <!-- Spurs Logo / Brand -->
+        <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+            <img class="logo me-2" src="logo.png" alt="Tottenham Hotspur Logo">
+            <span>Tottenham Hotspur</span>
         </a>
 
-
-        <!-- Mobile menu button -->
-
+        <!-- Mobile Menu Button -->
         <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#mainNavigation">
-
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-
         </button>
 
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ms-auto">
 
-        <!-- Navigation links -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
 
-        <div
-            class="collapse navbar-collapse"
-            id="mainNavigation">
+                <li class="nav-item">
+                    <a class="nav-link" href="tottenham.html">
+                        History
+                    </a>
+                </li>
 
-            <div class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="squad.html">
+                        Squad
+                    </a>
+                </li>
 
-                <a
-                    class="nav-link"
-                    href="index.html">
-                    Home
-                </a>
+                <li class="nav-item">
+                    <a
+                        class="nav-link active"
+                        href="gallery.html"
+                        aria-current="page">
+                        Gallery
+                    </a>
+                </li>
 
-                <a
-                    class="nav-link"
-                    href="tottenham.html">
-                    History
-                </a>
-
-                <a
-                    class="nav-link active"
-                    href="gallery.html">
-                    Gallery
-                </a>
-
-                <a
-                    class="nav-link"
-                    href="squad.html">
-                    Squad
-                </a>
-
-            </div>
-
+            </ul>
         </div>
 
     </div>
-
 </nav>
-
 
 
 <!-- =========================================================

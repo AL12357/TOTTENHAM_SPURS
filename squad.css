@@ -1,3 +1,11 @@
+/* ==========================================
+   SQUAD PAGE STYLES
+   Every class starts with "squad-" so it
+   cannot clash with the shared styles.css
+   Colours: navy #132257, white, soft grey #f3f5fa
+   ========================================== */
+
+/* ---------- Page banner ---------- */
 .squad-banner {
   background: linear-gradient(135deg, #132257 55%, #1d3a96);
   color: #ffffff;
@@ -19,6 +27,7 @@
   color: #cfd6f5;
 }
 
+/* Quick links to each position */
 .squad-jump {
   display: flex;
   justify-content: center;
@@ -42,6 +51,7 @@
   color: #132257;
 }
 
+/* ---------- Position groups ---------- */
 .squad-group {
   margin-bottom: 48px;
   scroll-margin-top: 20px;
@@ -55,12 +65,14 @@
   border-bottom: 3px solid #132257;
 }
 
+/* ---------- Grid of cards ---------- */
 .squad-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 22px;
 }
 
+/* ---------- One player card ---------- */
 .squad-card {
   background: #ffffff;
   border-radius: 12px;
@@ -74,6 +86,7 @@
   box-shadow: 0 10px 24px rgba(19, 34, 87, 0.22);
 }
 
+/* Photo area: navy background with a silhouette until a real photo loads */
 .squad-photo {
   position: relative;
   aspect-ratio: 3 / 4;
@@ -91,6 +104,7 @@
   object-position: top;
 }
 
+/* Dark fade at the bottom so the number is easy to read */
 .squad-photo::after {
   content: "";
   position: absolute;
@@ -102,6 +116,7 @@
   pointer-events: none;
 }
 
+/* Big shirt number on the photo */
 .squad-number {
   position: absolute;
   left: 14px;
@@ -113,6 +128,7 @@
   color: #ffffff;
 }
 
+/* ---------- Name and position ---------- */
 .squad-info {
   padding: 14px 16px 16px;
   border-bottom: 4px solid #132257;
@@ -130,12 +146,14 @@
   color: #5a6286;
 }
 
+/* ---------- Small screens ---------- */
 @media (max-width: 480px) {
   .squad-banner h2 { font-size: 30px; }
   .squad-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
   .squad-number { font-size: 36px; }
 }
 
+/* Respect people who turn animations off */
 @media (prefers-reduced-motion: reduce) {
   .squad-card, .squad-jump a { transition: none; }
   .squad-card:hover { transform: none; }
