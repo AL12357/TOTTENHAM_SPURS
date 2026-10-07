@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tottenham Hotspur - Fixtures</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark home-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+        <img class="logo me-2" src="logo.png" alt="Tottenham Hotspur logo">
+        <span>Tottenham Hotspur FC</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavigation"
+        aria-controls="mainNavigation"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavigation">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="tottenham.html">History</a>
+          <a class="nav-link" href="squad.html">Squad</a>
+          <a class="nav-link" href="gallery.html">Gallery</a>
+          <a class="nav-link active" aria-current="page" href="fixtures.html">Fixtures</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <section class="home-hero p-4 p-md-5 mb-4 rounded-3 text-white text-center">
+      <h1 class="display-5 fw-bold">Fixtures &amp; Ticket Inquiry</h1>
+      <p class="lead mb-0">Upcoming Premier League matches and ticket requests</p>
+    </section>
+
+    <section class="card shadow-sm mb-4">
+      <h2 class="card-header home-card-header text-white fw-bold h5 mb-0">Upcoming Matches</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between align-items-center gap-3">
+          <div>
+            <strong>Tottenham Hotspur vs Arsenal</strong>
+            <div class="text-muted small">Tottenham Hotspur Stadium</div>
+          </div>
+          <span class="badge home-card-header text-white">Oct 18, 2026</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center gap-3">
+          <div>
+            <strong>Chelsea vs Tottenham Hotspur</strong>
+            <div class="text-muted small">Stamford Bridge</div>
+          </div>
+          <span class="badge home-card-header text-white">Oct 25, 2026</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center gap-3">
+          <div>
+            <strong>Tottenham Hotspur vs Manchester City</strong>
+            <div class="text-muted small">Tottenham Hotspur Stadium</div>
+          </div>
+          <span class="badge home-card-header text-white">Nov 01, 2026</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card shadow-sm mb-4">
+      <h2 class="card-header home-card-header text-white fw-bold h5 mb-0">Matchday Ticket Inquiry</h2>
+      <div class="card-body">
+        <form>
+          <div class="mb-3">
+            <label for="fullName" class="form-label fw-bold">Full Name</label>
+            <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Enter your full name" autocomplete="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="emailAddress" class="form-label fw-bold">Email Address</label>
+            <input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="name@example.com" autocomplete="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="matchSelect" class="form-label fw-bold">Select Match</label>
+            <select class="form-select" id="matchSelect" name="match">
+              <option selected>Tottenham vs Arsenal</option>
+              <option>Chelsea vs Tottenham</option>
+              <option>Tottenham vs Manchester City</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label fw-bold">Additional Requests</label>
+            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Specify number of seats or questions"></textarea>
+          </div>
+          <button type="submit" class="btn home-card-header text-white fw-bold">Submit Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="home-footer text-white text-center py-3 mt-auto">
+    <p class="mb-0">&copy; 2026 Tottenham Hotspur Group Project | Fixtures Page</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
